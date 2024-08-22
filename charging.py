@@ -31,7 +31,6 @@ class Station:
 
 class EVSystem:
     def __init__(self):
-        # Simulated in-memory stations with slots in 'dd-mm-yyyy hh:mm AM/PM' format
         now = datetime.now()
         self.stations = [
             Station("1", "Station A", "Kukatpally", [
